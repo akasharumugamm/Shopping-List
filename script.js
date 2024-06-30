@@ -185,14 +185,14 @@ function checkUI() {
   }
 
   formBtn.innerHTML = '<i class="fa-solid fa-plus"></i> Add Item';
-  formBtn.style.backgroundColor = '#333';
+  formBtn.style.backgroundColor = '#333';git
 
   isEditMode = false;
 }
 
 git add .
 function init() {
-  // Event Listeners
+  // Event Listener
   itemForm.addEventListener('submit', onAddItemSubmit);
   itemList.addEventListener('click', onClickItem);
   clearBtn.addEventListener('click', clearItems);
