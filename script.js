@@ -190,7 +190,7 @@ function checkUI() {
   isEditMode = false;
 }
 
-// Initialize app
+git add .
 function init() {
   // Event Listeners
   itemForm.addEventListener('submit', onAddItemSubmit);
